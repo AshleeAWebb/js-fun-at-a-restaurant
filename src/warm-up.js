@@ -17,13 +17,27 @@ var inStock = 10
 
 // Reassign (not initialize) your "inStock" variable from above. We got a new shipment! Use a built in math operator to make 
 // the inStock count double what it currently is.
-inStock = (inStock*2);
-console.log(inStock);
+//inStock = (inStock*2);
+//console.log(inStock);
+
+function updateInStock() {
+    inStock = (inStock*2)
+    console.log(inStock)
+}
+updateInStock();
+
+
 
 // Reassign (not initialize) your "inStock" variable from above. You got hungry and needed a snack! 
 // Use a built in math operator to decrement the inStock count by 1.
-inStock = (inStock-1);
-console.log(inStock);
+//inStock = (inStock-1);
+//console.log(inStock);
+
+function decreaseInStock() {
+    inStock = (inStock-1)
+    console.log(inStock)
+}
+decreaseInStock();
 
 // Initialize a new variable "isFavorite", and assign it to a boolean value indicating
 // if the food you chose is your favorite food or not
